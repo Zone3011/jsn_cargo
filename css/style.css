@@ -11,7 +11,57 @@ html {
 .fw-medium {
     font-weight: 600 !important;
 }
+.rounded-4{
+    border-radius: 20px;
+}
+.btn-rounded{
+    border-radius: 10px;
 
+}
+.responsive-rounded-img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  /* Desktop and up */
+  @media (min-width: 992px) {
+    .responsive-rounded-img {
+      border-top-right-radius: 80px;
+      border-bottom-right-radius: 80px;
+    }
+  }
+
+  .responsive-rounded-img-2 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  /* Desktop and up */
+  @media (min-width: 992px) {
+    .responsive-rounded-img-2 {
+      border-top-left-radius: 80px;
+      border-bottom-left-radius: 80px;
+    }
+  }
+
+  .testimonial-bg-rounded {
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+  }
+  
+  /* Desktop and up */
+  @media (min-width: 992px) {
+    .testimonial-bg-rounded {
+        border-bottom-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+    }
+  }
+.div-rounded{
+    border-radius: 18px;
+}
+.img-rounded{
+    border-radius: 12px;
+}
 .back-to-top {
     position: fixed;
     display: none;
