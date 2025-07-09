@@ -3,10 +3,16 @@
 
 <head>
     <meta charset="utf-8">
+<<<<<<< HEAD
     <title>json Home</title>
+=======
+    <title>JSN Home</title>
+>>>>>>> 5cb5e14 (Updated responsive navbar with logo and tagline)
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
+<!-- Example with PNG -->
+<link rel="icon" type="image/png" href="./img/h_logo.png">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -43,22 +49,32 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
-        <a href="#home" class="navbar-brand scroll-link bg-primary d-flex align-items-center ">
-            <img src="./img/h_logo.png" style="width: 170px;" class="m-lg-5" alt="">
+        <a href="#home" class="navbar-brand scroll-link bg-primary d-flex align-items-center px-3 py-2">
+            <img src="./img/h_logo.png" class="me-2 d-none d-sm-block" style="height: 50px;" alt="">
+            <img src="./img/h_logo.png" class="me-2 d-block d-sm-none" style="height: 40px;" alt="">
+            <div class="d-flex flex-column justify-content-center text-white lh-sm d-none d-sm-flex">
+                <span class="fw-bold" style="font-size: 18px;">JSN SETU CARGOLYRIX</span>
+                <small style="font-size: 14px; text-decoration: underline;">FREIGHT FORWARDING AND LOGISTICS</small>
+            </div>
         </a>
+        
+        
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="#home"  class=" scroll-link nav-item nav-link ">Home</a>
-                <a href="#about" class=" scroll-link nav-item nav-link">About</a>
-                <a href="#services" class=" scroll-link nav-item nav-link">Services</a>
+                <a href="#home" class="scroll-link nav-item nav-link">Home</a>
+                <a href="#about" class="scroll-link nav-item nav-link">About</a>
+                <a href="#services" class="scroll-link nav-item nav-link">Services</a>
                 <a href="#contact" class="scroll-link nav-item nav-link">Contact</a>
             </div>
-            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+91 7041088371</h4>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block">
+                <i class="fa fa-headphones text-primary me-3"></i>+91 7041088371
+            </h4>
         </div>
     </nav>
+    
     <!-- Navbar End -->
 
 
@@ -66,7 +82,7 @@
     <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative mb-5">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid img-rounded" src="img/carousel-1.jpg" alt="">
+                <img class="img-fluid " src="img/carousel-1.jpg" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -94,6 +110,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -430,7 +447,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="bg-primary ">
+    
     <div class="bg-white testimonial-bg-rounded container-xxl py-5 wow " data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="text-center">
@@ -485,7 +502,7 @@
             </div>
         </div>
     </div>
-</div>
+
     <!-- Testimonial End -->
 
 
